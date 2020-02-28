@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/itemb_photo"
+        android:layout_width="171dp"
+        android:layout_height="162dp"
+        android:background="@drawable/booksss">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemb_name"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/itemb_author"
+            android:layout_width="202dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/itemb_price"
+            android:layout_width="202dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="25dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/itemb_category"
+            android:layout_width="202dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/itemb_city"
+            android:layout_width="202dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/itemb_grade"
+            android:layout_width="202dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="25dp" />
+
+
+
+        <ImageView
+            android:id="@+id/itemb_add_photo"
+            android:layout_width="74dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            ></ImageView>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/selectimage_button_register"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="22dp"
+
+            android:background="@drawable/person"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/phone_editText_login"
+            android:padding="10dp"
+            android:background="@drawable/round_edit_text"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:layout_gravity="center"
+            />
+
+
+        <EditText
+            android:id="@+id/password_editText_login"
+            android:padding="10dp"
+            android:background="@drawable/round_edit_text"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            />
+
+
+        <Button
+            android:id="@+id/login_button"
+            android:background="@drawable/round"
+            android:textColor="#ffffff"
+            android:layout_marginTop="30dp"
+            android:text="Login"
+            android:textSize="22dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Don't have an account? click here"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

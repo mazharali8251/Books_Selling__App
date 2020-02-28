@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Buy_Book"
+    android:background="@drawable/book"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/search_city"
+            android:padding="10dp"
+            android:background="@drawable/round_edit_text"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Search Books by City"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/search_board"
+            android:padding="10dp"
+            android:background="@drawable/round_edit_text"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Search Books by Baord"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/search_grade"
+            android:padding="10dp"
+            android:background="@drawable/round_edit_text"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Search Books by Grade"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/viewallbooks"
+            android:background="@drawable/round"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:text="All books"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/register_button"
+            android:background="@drawable/round"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:text="Recently Added"
+            android:textSize="20dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+          />
+    </LinearLayout>
+</LinearLayout>

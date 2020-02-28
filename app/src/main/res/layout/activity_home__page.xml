@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    android:orientation="vertical"
+    tools:context=".Home_Page"
+    >
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="336dp"
+        android:layout_height="272dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="34dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+    <Button
+        android:id="@+id/home_sellbtn"
+        android:background="@drawable/round"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:text="Sell Book"
+        android:textSize="22dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/home_buybtn"
+        android:background="@drawable/round"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:text="Buy Book"
+        android:textSize="22dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
